@@ -1,12 +1,56 @@
-
-/* 
-
-    You can write your own styles here...
+.stylecard {
+    width: 19rem;
+    margin-top: 25px;
+    }
     
+    .navbar-nav {
+    margin-left: 860px;
+    }
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+    .nav-link{
+    color: white;
+    }
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    .navbar-brand{
+        color: white;
+    }
+    
+    .navbar{
+        background-color: rgb(52, 58, 64);
+    }
+    
+    .jumbotron{
+    background-color: rgb(234, 236, 239);
+    height:250px;
+    }
+    
+    .btn{
+        margin-left: 65px;
+    }
+    .jumbotron
+    .btn{ margin-left: 3px;
+    
+    }
+    
+    .card-title{
+        margin-left: 85px;
+    }
+    
+    .card-text{
+        text-align: center
+    }
+    
+    .lead{
+        margin-left: 40px;
+    }
+    .display-4{
+        margin-left: 40px;
+    }
+    .container-fluid {
+        background-color: rgb(52, 58, 64);
+        height: 50px;
+    }
+    .navbar-brand{
+        margin:auto;
+        font-size: 15px;
+    }
