@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Card = () => {
+export default function Card () {
 	return (
-        <div className="card stylecard">
+        <div className="card stylecard mt-4 mb-4">
         <img src="https://fastly.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s" className="card-img-top" alt="..."/>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
